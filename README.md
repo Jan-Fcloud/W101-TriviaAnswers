@@ -3,8 +3,8 @@ This is a simple Tampermonkey userscript, which automatically highlights the cor
 
 # Usage / Installation
 1. Install [Tampermonkey](https://www.tampermonkey.net/) or any extension that supports installing userscripts,
-2. Install the userscript by clicking here,
-3. Make sure the script is enabled in the dashboard
+2. Install the userscript by clicking [here](https://github.com/Jan-Fcloud/W101-TriviaAnswers/raw/main/script.user.js),
+3. Make sure the script is enabled in the dashboard,
 4. Go to the [Wizard101 Trivia page](https://www.wizard101.com/game/trivia) and select a trivia,
 5. The answers should now be automatically highlighted for you!
 Make sure to check which trivias are supported!
