@@ -35,8 +35,6 @@
         // Get the trivia question from the div .quizQuestion
         let question = $(".quizQuestion").text();
 
-        let answer = "";
-
         // Find the question in the quizData
         data[quizTitle].forEach(qElement => {
             if (qElement[0].toUpperCase() === question.toUpperCase() || qElement[0].toUpperCase() === question.toUpperCase() + "?"){
@@ -44,20 +42,13 @@
 
                 // Find the found answer in the answers on the website
                 let answers = $(".answerText");
-                console.log(answers);
 
                 answers.each(function (index, element) {
                     var elementText = $(element).text().trim();
-                    console.log(elementText);
                     if (elementText === qElement[1].trim()) {
-                        console.log("Found answer");
                         $(element).css("background-color", "green");
 
                         return true;
-                    } else {
-                        console.log("Not answer");
-                        console.log("qElement: " + qElement[1]);
-                        console.log("element: " + elementText);
                     }
                 });
 
