@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         W101 Trivia
+// @name         Wizard101 Trivia Answer Highlighter
 // @namespace    https://github.com/Jan-Fcloud/W101-TriviaAnswers
 // @version      1.0
 // @description  Highlight the correct answer in the Wizard101 Trivia game
