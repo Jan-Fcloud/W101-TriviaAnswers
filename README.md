@@ -9,6 +9,9 @@ This is a simple Tampermonkey userscript, which automatically highlights the cor
 5. The answers should now be automatically highlighted for you!
 Make sure to check which trivias are supported!
 
+*Is this safe to use?*
+*Although this can not be 100% proven, it is aperent that we are not altering, nor hacking any services. This is essentially a faster way of copying answers, similar to what you would do while looking the answers up online.*
+
 # Example
 Here is how it looks in action:
 
@@ -64,3 +67,6 @@ The JSON I have found is also rather old, so I will be adding the new questions 
 - Wizard101 Wizard City
 - Wizard101 Zafaria
 - World Capitals
+
+### Disclaimer:
+*This script is an independent project not affiliated with, endorsed, sponsored, or specifically approved by Wizard101, Pirate101, or KingsIsle Entertainment. All trademarks belong to their respective owners. Use at your own risk, this script is provided "as is" without warranty of any kind.*
